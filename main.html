@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Broadband Offer Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('./images/hero.jpg') center top/cover no-repeat;
+      min-height: 100vh;
+    }
+    header {
+      background: #3100a3;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 20px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .contact-info, .contact-icons {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    nav {
+      margin-left: 20px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #fdfdfd;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+    nav a.active {
+      border-bottom: 2px solid #0400f1;
+    }
+    .content-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 50px 40px;
+      color: beige;
+    }
+    .form-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 20px;
+      margin-bottom: 40px;
+    }
+    .form-box {
+      background: rgba(173, 216, 230, 0.85);
+      padding: 30px;
+      border-radius: 50px;
+      max-width: 350px;
+      width: 100%;
+    }
+    .form-box h2 {
+      color: #007bff;
+      text-shadow: 1px 1px 3px #999;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .form-box input,
+    .form-box textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 20px;
+      outline: none;
+      font-size: 16px;
+    }
+    .form-box button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      width: 100%;
+      padding: 12px;
+      border-radius: 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .form-box button:hover {
+      background-color: #0056b3;
+    }
+    .main-content-row {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 40px;
+      padding: 0 40px 0 40px;
+    }
+    .spacer {
+      flex: 1;
+    }
+    @media (max-width: 768px) {
+      .main-content-row {
+        flex-direction: column;
+      }
+      .spacer {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="contact-info">
+      <img src="./images/logo.jpg" alt="du Logo" height="40">
+      <nav>
+        <a href="#" class="active">Home</a>
+        <a href="#">Contact Us</a>
+      </nav>
+    </div>
+    <div class="contact-icons">
+      <span>+971-544355668</span>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" height="24">
+    </div>
+  </header>
+
+  <section class="content-section">
+    <h2>We provide fast internet service</h2>
+  </section>
+
+ <section class="main-content-row">
+  <div style="flex: 1; min-width: 320px; max-width: 500px; color: beige;">
+    <h2 style="text-shadow: 1px 1px 3px #000;">We provide fast internet service</h2>
+  </div>
+  <div style="flex: 1; min-width: 320px; max-width: 400px;">
+    <form class="form-box">
+      <h2>Get An Offer</h2>
+      <input type="text" name="name" placeholder="Name" required />
+      <input type="tel" name="phone" placeholder="Phone Number" required />
+      <input type="email" name="email" placeholder="Email Address" required />
+      <textarea name="message" placeholder="Message" rows="3"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</section>
+
+</body>
+</html>
