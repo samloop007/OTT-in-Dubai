@@ -1,0 +1,28 @@
+<div class="plan popular">
+  <div style="position:absolute;top:10px;right:-28px;z-index:2;transform:rotate(18deg);">
+    <span style="display:inline-block;background:#ffb703;color:#222;padding:7px 26px 7px 26px;border-radius:20px;font-size:1.05em;font-weight:900;box-shadow:0 4px 16px rgba(255,183,3,0.18),0 2px 8px rgba(0,0,0,0.10);letter-spacing:1px;border:2.5px solid #fff;text-shadow:0 2px 6px rgba(0,0,0,0.10);">Popular</span>
+  </div>
+  <h2>Home Wireless Gaming</h2>
+  <div class="plan-details">
+    <span class="contract">12 Months Contract</span>
+    <span class="price-block">
+      <span class="currency">AED</span>
+      <span class="price">349</span>
+      <span class="vat">Monthly + 5% VAT</span>
+    </span>
+  </div>
+  <ul>
+    <li>Unlimited Data</li>
+    <li>Gaming Enhanced 5G Router</li>
+    <li>Internet Calling Pack For 12 Months</li>
+    <li>Subscriptions</li>
+    <li>Microsoft Xbox Game Pass Core</li>
+    <li>Disney</li>
+    <li>Amazon Prime</li>
+    <li>Shahid VIP</li>
+    <li>Shemaroo</li>
+    <li>VIU</li>
+    <li>Yango Play</li>
+  </ul>
+  <a href="https://wa.me/971545914507" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;">BUY NOW <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" height="18" style="vertical-align:middle;"></a>
+</div>
